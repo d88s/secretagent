@@ -1,68 +1,57 @@
-
-
+body {
+	padding: 0;
+	margin: 0;
+}
 html {
 	font-size: 18px;
 	width: 100%;
 }
 .header {
 	display: flex;
-	margin: 0 auto;
-
 	background-color: black;
-	height: 50px;
+	height: 2.32rem;
 }
 .header img {
 	height: 1.5rem;
-	padding-top: 0.66rem;
-	padding-bottom: 0.66rem;
-	border: 1px dotted white;
+	padding-top: 0.41rem;
+	padding-bottom: 0.41rem;
+	margin-left: 0.5rem;
 }
 .header span {
 	font-size: 1rem;
 	font-family: Helvetica;
 	color: white;
-	padding-left: 1rem;
+	margin-left: 1rem;
 	padding-top: 0.66rem;
 	padding-bottom: 0.66rem;
-	border: 1px solid white;
-	
 }
-.container {
-	display: flex;
-	flex-direction: column;
-	width: 100%;
-
-}
-
 .bigpic {
-	
-	
 	background-image: url("../images/mainback.jpeg");	
 	background-repeat: no-repeat;
-	border: 2px solid red;
+	background-size: cover;
 	height: 25rem;
-	width: 100%;
+	width: 100vw;
+	position: absolute;
 }
 .blackbox {
-	
-
-	border: 2px solid red;
 	width: 20rem;
+	align-content: center;
+	position: relative;
 	color: white;
 	background-color: black;
+	padding: 2rem 3rem;
+	margin-top: 9rem;
 }
 .blackbox span {
     font-family: Helvetica;
     font-size: 1rem;
-    font-weight: bold;
-    margin-left: 3rem;
+    font-weight: bold;   
 }
 .blackbox p {
 	font-family: Helvetica;
 	font-size: 2rem;
 	font-weight: bold;
-	margin-left: 3rem;
-
+	margin-top: 0.25rem;
 }
 .middle {
 	display: inline-flex;
