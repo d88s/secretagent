@@ -1,0 +1,40 @@
+
+
+html {
+	font-size: 18px;
+}
+.header {
+	display: flex;
+	background-color: black;
+	height: 1.5rem;
+}
+.header img {
+	height: 1.5rem;
+	padding-top: 0.66rem;
+	padding-bottom: 0.66rem;
+	border: 1px dotted white;
+
+	
+}
+.header span {
+	font-size: 1rem;
+	font-family: Helvetica;
+	color: white;
+	padding-left: 1rem;
+	padding-top: 0.66rem;
+	padding-bottom: 0.66rem;
+	border: 1px solid white;
+	
+}
+
+
+.bigpic {
+	background-image: url("../images/mainback.jpeg");	
+	border: 2px solid red;
+
+	
+	height: 25rem;
+	
+	
+	
+}
