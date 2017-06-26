@@ -63,9 +63,9 @@ header {
 	margin-top: 0.25rem;
 }
 .sitecontainer {
-	border: 2px solid black;
-	width: 960px;
-	margin: auto;
+	
+	max-width: 960px;
+	margin: 0 auto;
 	padding: 0;
 }
 nav {
@@ -88,7 +88,7 @@ nav li {
 .images {
 	display: flex;
 	justify-content: space-between;
-	border: 1px solid black;
+	
 }
 .pen {
 	display: flex;
@@ -107,13 +107,7 @@ nav li {
 	max-width: 8rem;
 	padding: 2rem 0;
 }
-.pen span {
-	background-color: black;
-    color: white;
-    height: 1.5rem;
-    padding: 0.5rem;
-    display: block;
- }
+
 .watch {
 	display: flex;
 	flex-direction: column;
@@ -130,14 +124,9 @@ nav li {
 	padding: 2rem 0;
 	max-width: 8rem;
 }
-.watch span {
-    background-color: black;
-    color: white;
-    height: 1.5rem;
-    padding: 0.5rem;
-    display: block;
 
-}
+
+
 .glasses {
 	display: flex;
 	flex-direction: column;
@@ -153,14 +142,14 @@ nav li {
 	padding: 2rem 0;
 	max-width: 8rem;
 }
-.glasses span {
+span.description {
     background-color: black;
     color: white;
-    height: 1.5rem;
     padding: 0.5rem;
     display: block;
-
-
+    text-align: center;
+    width: 100%;
+  
 }
 
 
