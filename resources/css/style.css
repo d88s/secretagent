@@ -1,6 +1,3 @@
-body {
-
-}
 html {
 	font-size: 18px;
 	font-family: Helvetica;
@@ -66,6 +63,7 @@ header {
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 0;
+	margin-top: 3rem;
 }
 nav {
 	background-color: firebrick;
@@ -87,7 +85,7 @@ nav li {
 .images {
 	display: flex;
 	justify-content: space-between;
-	
+	margin-bottom: 3rem;
 }
 .pen {
 	width: 30%;
@@ -134,40 +132,56 @@ nav li {
 span.description {
     background-color: black;
     color: white;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
     display: block;
     text-align: center;
     width: 100%;
-  
 }
-
-
-
-
-
-
-
-
-
-
+.random {
+	display: flex;
+	justify-content: space-between;
+	max-width: 960px;
+	margin-bottom: 4rem;
+}
+.location {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+}
+.location-text {
+	background-color: black;
+}
+.location-text span {
+	display: block;
+	color: white;
+	padding: 1rem 0 1rem 2rem;
+}
+.hours {
+	display: flex;
+	flex-direction: column;
+	width: 35%;
+}
+.hours-text {
+	background-color: black;
+}
+.hours-text span {
+	display: block;
+	color: white;
+	padding: 1rem 0 1rem 2rem;
+}
 footer {
 	background-color: black;
 	color: white;
-	
 	height: 5rem;
-	
 }
 .copyright {
 	display: flex;
-	border: 1px solid white;
 	width: 960px;
 	margin: auto;
 	height: 5rem;
 	align-items: center;
 }
-.copyright span {
-	border: 2px solid red;
-}
+
 
 
 
