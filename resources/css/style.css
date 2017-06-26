@@ -63,7 +63,6 @@ header {
 	margin-top: 0.25rem;
 }
 .sitecontainer {
-	
 	max-width: 960px;
 	margin: 0 auto;
 	padding: 0;
@@ -91,55 +90,45 @@ nav li {
 	
 }
 .pen {
+	width: 30%;
+}
+.pen-image {
 	display: flex;
-	flex-direction: column;
+	height: 9rem;
+	border: 4px solid black;
+	padding: 2rem 0;
 	justify-content: center;
 	align-items: center;
-	border: 4px solid black;
-	width: 30%;
-	
-	
 }
 .pen-image img {
+	max-width: 8rem;
+}
+.watch {
+	width: 30%;
+}
+.watch-image {
 	display: flex;
 	height: 9rem;
-	border: 1px solid blue;
-	max-width: 8rem;
+	border: 4px solid black;
 	padding: 2rem 0;
-}
-
-.watch {
-	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border: 4px solid black;
-	width: 30%;
-	
 }
 .watch-image img {
-	display: flex;
-	height: 9rem;
-	border: 1px solid blue;
-	padding: 2rem 0;
 	max-width: 8rem;
 }
-
-
-
 .glasses {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	border: 4px solid black;
 	width: 30%;	
 }
-.glasses-image img {
+.glasses-image {
 	display: flex;
 	height: 9rem;
-	border: 1px solid blue;
+	border: 4px solid black;
 	padding: 2rem 0;
+	justify-content: center;
+	align-items: center;
+}
+.glasses-image img {
 	max-width: 8rem;
 }
 span.description {
