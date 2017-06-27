@@ -198,7 +198,7 @@ footer {
 		display: none;
 	}
 }
-@media only screen and (max-width: 470px) {
+@media only screen and (max-width: 375px) {
 	.pen, .watch, .glasses {
 		width: 90%;
 		margin: 0 auto;
