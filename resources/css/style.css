@@ -36,7 +36,7 @@ header {
 	padding-bottom: 0.66rem;
 }
 .headline {
-	width: 960px;
+	max-width: 960px;
 	margin: auto;
 }
 .blackbox {
@@ -67,20 +67,26 @@ header {
 }
 nav {
 	background-color: firebrick;
-	height: 2.32rem;
-	width: 100vw;
 }
-nav ul {
-	width: 960px;
+.flex-container {
+	max-width: 960px;
 	margin: 0 auto;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	height: 2.32rem;
 }
-nav li {
-	display: inline;
-	color: white;
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-weight: bold;
+    padding: 0.75rem 0;
+}    
+.mobile-navbar {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem 0;
 }
 .images {
 	display: flex;
@@ -176,14 +182,66 @@ footer {
 }
 .copyright {
 	display: flex;
-	width: 960px;
+	max-width: 960px;
 	margin: auto;
 	height: 5rem;
 	align-items: center;
 }
+@media only screen and (max-width: 1024px) {
+	.navbar {
+		display: none;
+	}
+	.pen, .watch, .glasses {
+		width: 45%;
+	}
+	.glasses {
+		display: none;
+	}
+}
+@media only screen and (max-width: 470px) {
+	.pen, .watch, .glasses {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.watch, .glasses {
+		display: none;
+	}
+	.main {
+		height: 15rem;
+	}
+	.blackbox {
+		padding: 2rem 1rem;
+		margin-top: 6rem;
+		width: 100%;
+	}
+	.blackbox span {
+		font-size: 0.77rem;
+	}
+	.blackbox p {
+		font-size: 1rem;
+	}
+	.random {
+		display: block;
+	}
+	.location, .hours {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.hours {
+		margin-top: 0.5rem;
+	}
+	.copyright {
+		justify-content: center;
+	}
+}
+@media only screen and (min-width: 1024px) {
+	.mobile-navbar {
+		display: none;
+	}
+}
 
 
-
+    
 
 
 
